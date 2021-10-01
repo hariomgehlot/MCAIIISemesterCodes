@@ -1,0 +1,90 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <style>
+    table, th, td {
+  border: 1px solid black;
+  background-color: cyan;
+  font-size: large;
+}
+        .form{
+	background:#f1f1f1; width:470px; margin:0 auto; padding-left:50px; padding-top:20px;
+}
+    </style>
+</head>
+<body>
+   
+    <div class="form">
+       <table border="2px" style="width:100%">
+           <tbody><tr><th style="background-color: #F0EC5D; font-size: 30px; color: red;" colspan="2 ">User Form</th>
+        <form id="contactform"></form> 
+            </tr><tr>
+            <td><p class="contact"><label for="name">Name</label></p> </td>
+            <td> <input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text"> </td> 
+            </tr>
+
+            <tr>
+            <td> <p class="contact"></p><label for="password">Create a password</label><p></p> </td>
+             <td>  <input type="password" id="password" name="password" required=""> </td>
+            </tr>
+      
+            <tr>
+           <td> Enter Address</td>
+            <td>
+                <textarea style="width:50"></textarea>
+            </td></tr>
+                <tr><td>Select Game</td>
+                <td>
+                    <input type="checkbox" name="game" value="Hockey">Hockey<br>
+                    <input type="checkbox" name="game" value="Football">Football<br>
+                    <input type="checkbox" name="game" value="Badminton">Badminton<br>
+                    <input type="checkbox" name="game" value="Cricket">Cricket<br>
+                    <input type="checkbox" name="game" value="Volleybaal">Volleyball<br>
+                    
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Select Gender 
+                </td>
+
+                <td>
+                    <input type="radio" name="Gender" value="Male">Male<br>
+                    <input type="radio" name="Gender" value="Female">Female<br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>    Select your age  : </td>
+                <td>
+                    <select>
+                        <option value="0">Select your age</option>
+                        <option value="1-10">1-10</option>
+                        <option value="11-20">11-20</option>
+                        <option value="21-30">21-30</option>
+                        <option value="31-40">31-40</option>    
+                    </select>
+                </td>
+            </tr>
+            <tr>
+              
+                <td colspan="2" align="center">
+                <input type="file" id="myFile" name="filename">
+                <br><input type="submit"><input type="reset"><input type="">
+                </td>
+            </tr>
+           <tr>
+                
+            
+            
+           </tr>
+              
+    </tbody></table> 
+     
+    </div>
+
+
+</body></html>
