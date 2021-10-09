@@ -1,0 +1,8 @@
+<?php
+echo"Welcome to php.";
+
+$val=56;
+$val2 =43;
+$val3=val+val2;
+
+echo "sum of "+$val+"and"+$val2+" ="+$val3

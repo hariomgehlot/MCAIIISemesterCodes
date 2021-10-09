@@ -8,14 +8,13 @@
 $bs = $_POST["salary"];
 if(is_numeric($bs))
 {
-        print "The Basic salary u enetered is". $bs;
+        print "The Basic salary u enetered is ". $bs;
         $da = ($bs * 40)/100;
         $hra = ($bs * 20)/100;
         $gs = $bs + $hra + $da;
-?>
-<br />
-<?php
-        print "Gross Salary is".$gs;
+
+echo "<br/>" ;
+        echo "Gross Salary is ".$gs;
      
 }else{
     print "Wrong Input";

@@ -1,0 +1,58 @@
+
+<html>
+    <style type="text/css">
+        .form-class :hover{
+    color:blue;
+    background-color: blueviolet;
+        }
+    
+        td:hover{
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+    </style>   
+<body>
+
+<div class="form-class" style="background-color: bisque; color: red; align-items: center; justify-content: center;width: 50%; border-radius: 5px;">
+    <fieldset>
+        <legend  style="border-radius:8px;">Data Concatenate</legend>
+    <table border="2px" style="border-radius:8px;">
+        <tr>
+            <td colspan="2">
+                Enter Two data
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                Enter A
+            </td>
+            <td>
+                Enter B
+            </td>
+        </tr>
+
+        <tr>
+            <form method="POST" action="assignment3.php">
+                <td>
+                    <input type="text" id="A" name="a" placeholder="a here "  >
+                </td>
+                <td>
+                    <input type="text" id="B" name="b" placeholder="b here "  >
+                </td>
+                
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="submit" value="Submit">
+                    </td>
+                </tr>
+            </form>
+           
+        </tr>
+    </table>
+    </fieldset>
+
+</div>
+</body>
+</html>
