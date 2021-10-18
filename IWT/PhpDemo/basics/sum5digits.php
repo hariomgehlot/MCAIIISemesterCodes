@@ -12,8 +12,8 @@ if(strlen($num) ==5){
     $num/=10;
     $digit5 = intval($num%10);
     
-$sum =$digit1+$digit2+$digit3+$digit4+$digit5;
-echo "sum is $sum";
+$ans =strval($digit1);
+echo "Reverse is  $ans";
 
 }else{
     echo "Please enter a 5 digit number.";
