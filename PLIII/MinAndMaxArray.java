@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class MinAndMaxArray {
     public static void main(String[] args) {
-        int length,max=Integer.MAX_VALUE,min=Integer.MAX_VALUE;
+        int length,max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter length of the array :");
         length = sc.nextInt();

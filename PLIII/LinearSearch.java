@@ -16,7 +16,7 @@ public class LinearSearch {
         key = sc.nextInt();
         for(int i=0;i<arr.length;i++){
             if(key==arr[i]){
-                System.out.println("At:"+ i+1);
+                System.out.println("At:"+(int)(i+1));
                 sc.close();
                 return;
             }
